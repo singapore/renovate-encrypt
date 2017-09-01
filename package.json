@@ -1,7 +1,7 @@
 {
   "name": "renovate-encrypt",
   "description": "CLI tool to encrypt configuration values with Renovate public key",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "bin": "dist/renovate-encrypt.js",
   "scripts": {
     "build": "rimraf dist && mkdirp dist && babel lib --out-dir dist",
